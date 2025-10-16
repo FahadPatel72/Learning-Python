@@ -6,7 +6,7 @@ lst[0] = 34
 tuple2 = tuple(lst)
 print(tuple2)
 
-tuple3 = (3,4,5,32,2)
+tuple3 = (5,3,4,5,5,32,2)
 
 # tuplenew = tuple2+tuple3
 # print(tuplenew)
@@ -18,3 +18,10 @@ lst3.extend(lst2)
 tuple3 = tuple(lst3)
 print(tuple3)
 
+# Count Method in tuple
+print(tuple3.count(5))
+
+# index - return first occurence of the element it returns its index
+# print(tuple3.index(5,0,2))
+                      # 5 0:2 = [2,3,4,5] == 3
+print(tuple3.index(5,0,2))
