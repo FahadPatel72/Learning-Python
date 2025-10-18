@@ -5,7 +5,7 @@ i = int(input("Enter a number:"))
     #  print(i)
     #  step = step + 1
     
-# Note : In while loop we have to manually add step after print statement here like for loop it bydefault not step by +1
+# Note : In while loop we have to manually add step after print statement here like for loop it bydefault step by +1
 
 # Increment Loop
 while(i<5):

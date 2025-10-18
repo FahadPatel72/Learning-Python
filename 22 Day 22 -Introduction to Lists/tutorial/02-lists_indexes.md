@@ -50,6 +50,9 @@ else:
     print("Orange is absent.")
 Output:
 Orange is absent.
+
+
+
 Range of Index:
 You can print a range of list items by specifying where you want to start, where do you want to end and if you want to skip elements in between the range.
 
