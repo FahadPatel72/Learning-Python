@@ -5,9 +5,11 @@ info = {
     "age":23,
     231:"Hello Guys"
 }
+
 print(info)
 print(info["name"])
 print(info[231])
+
 # This method also we can use
 print(info.get("age"))
 

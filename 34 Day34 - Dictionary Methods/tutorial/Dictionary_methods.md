@@ -13,6 +13,7 @@ print(info)
 Output:
 {'name': 'Karan', 'age': 19, 'eligible': True}
 {'name': 'Karan', 'age': 20, 'eligible': True, 'DOB': 2001}
+
 Removing items from dictionary:
 There are a few methods that we can use to remove items from dictionary.
 
@@ -25,6 +26,8 @@ info.clear()
 print(info)
 Output:
 {}
+
+
 pop():
 The pop() method removes the key-value pair whose key is passed as a parameter.
 
@@ -34,6 +37,7 @@ info.pop('eligible')
 print(info)
 Output:
 {'name': 'Karan', 'age': 19}
+
 popitem():
 The popitem() method removes the last key-value pair from the dictionary.
 
@@ -43,6 +47,7 @@ info.popitem()
 print(info)
 Output:
 {'name': 'Karan', 'age': 19, 'eligible': True}
+
 del:
 we can also use the del keyword to remove a dictionary item.
 
