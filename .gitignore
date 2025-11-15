@@ -3,3 +3,17 @@ myenv
 venv/
 .venv/
 env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+.pyc/
+pyc/
