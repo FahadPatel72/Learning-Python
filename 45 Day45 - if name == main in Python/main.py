@@ -1,0 +1,3 @@
+import fahad
+
+fahad.welcome()
